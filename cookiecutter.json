@@ -1,0 +1,33 @@
+{
+  "module_name": "my-template",
+  "short_description": "A Terraform Module",
+  "resource_type": [
+    "acm",
+    "cloudfront",
+    "ec2",
+    "ecr",
+    "elb",
+    "iam",
+    "lambda",
+    "rds",
+    "route53",
+    "s3",
+    "ses",
+    "sg",
+    "standalone",
+    "vpc"
+  ],
+  "environment": [
+    "development",
+    "production"
+  ],
+  "namespace": [
+    "not applicable"
+  ],
+  "terraform_state_bucket": "foobar-tf-state",
+  "terraform_lock_table": [
+  "foobar-tf-state-development",
+  "foobar-tf-state-staging",
+  "foobar-tf-state-production"
+  ]
+}
